@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out your code from your GitHub repository
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/Bambokyo/groovy.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/AyeshaZaheerr/task7.git']]])
             }
         }
 
